@@ -152,7 +152,7 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-if $TERM == 'xterm' || $TERM == 'screen-256color' 
+if $TERM == 'xterm' || $TERM == 'screen-256color' || $TERM == 'xterm-256color' 
     set t_Co=256
     colorscheme lanox
 endif
